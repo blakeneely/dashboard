@@ -6,6 +6,10 @@ A dashboard to display current Concentration and Temperature. Built to run on a 
 
 The dashboard also contains a line chart for historical data that has been statically provided, marking each hour's Concentration and Temperature level readings. Either dataset can be toggled on or off with clicking it's labeled button.
 
+## Live Demo
+
+See a <a href="https://kyzendashboard.herokuapp.com/">live demo here</a> hosted on Heroku.
+
 ## Built with
 
 - <a href="https://reactjs.org/docs/getting-started.html">React</a>
@@ -26,3 +30,7 @@ Then navigate to the root folder and run:
     npm start
 
 to start the React server usually on port 3000
+
+## Image
+
+<img src="./build/images/dashboard.png">
