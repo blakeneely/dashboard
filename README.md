@@ -33,4 +33,4 @@ to start the React server usually on port 3000
 
 ## Image
 
-<img src="./build/images/dashboard.png">
+<img src="./public/images/dashboard.png" height="400px" width="auto">
