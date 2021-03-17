@@ -27,7 +27,7 @@ const useStyle = makeStyles((theme) => ({
 
 // Set static initial data object values, typically this would be brought in from backend
 const initialValues = {
-  conc: 15,
+  conc: 20,
   temp: 38,
   concUpperLimit: 20,
   concLowerLimit: 10,
@@ -57,12 +57,12 @@ const ConcForm = () => {
             elevation={5}
             // If concentration level is outside of concentration limit add bold color outline
             style={{
-              outline:
+              background:
                 values.conc > values.concUpperLimit
-                  ? '10px solid red'
+                  ? 'red'
                   : values.conc < values.concLowerLimit
-                  ? '10px solid blue'
-                  : 'none',
+                  ? 'blue'
+                  : 'white',
             }}
           >
             <div className='title'>
@@ -73,9 +73,9 @@ const ConcForm = () => {
                 style={{
                   color:
                     values.conc > values.concUpperLimit
-                      ? 'red'
+                      ? 'white'
                       : values.conc < values.concLowerLimit
-                      ? 'blue'
+                      ? 'white'
                       : 'black',
                 }}
               >
@@ -115,12 +115,12 @@ const ConcForm = () => {
             elevation={5}
             // If temperature level is outside of temperature limit add bold outline
             style={{
-              outline:
+              background:
                 values.temp > values.tempUpperLimit
-                  ? '10px solid red'
+                  ? 'red'
                   : values.temp < values.tempLowerLimit
-                  ? '10px solid blue'
-                  : 'none',
+                  ? 'blue'
+                  : 'white',
             }}
           >
             <div className='title'>
@@ -131,9 +131,9 @@ const ConcForm = () => {
                 style={{
                   color:
                     values.temp > values.tempUpperLimit
-                      ? 'red'
+                      ? 'white'
                       : values.temp < values.tempLowerLimit
-                      ? 'blue'
+                      ? 'white'
                       : 'black',
                 }}
               >

@@ -33,7 +33,7 @@ const Chart = () => {
             datasets: [
               {
                 label: 'Conc',
-                data: [15, 13, 14, 16, 12, 14, 13, 15, 17],
+                data: [28, 13, 14, 16, 12, 14, 13, 15, 17],
                 backgroundColor: '#223d72',
                 borderColor: 'white',
                 borderWidth: 1,
