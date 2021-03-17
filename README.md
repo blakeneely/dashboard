@@ -31,6 +31,24 @@ Then navigate to the root folder and run:
 
 to start the React server usually on port 3000
 
-## Image
+## Images
+
+</br>
+
+### Everything is running smoothly, no warnings
 
 <img src="./public/images/dashboard.png" height="400px" width="auto">
+
+</br>
+</br>
+
+### Warning, over limit
+
+<img src="./public/images/warning_high.png" height="400px" width="auto">
+
+</br>
+</br>
+
+### Warning, under limit
+
+<img src="./public/images/warning_low.png" height="400" width="auto">
