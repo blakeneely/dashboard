@@ -2,7 +2,7 @@
 
 ## Description
 
-A dashboard to display current Concentration and Temperature. Built to run on a 7 inch touchscreen, it has numeric inputs for both upper and lower limits to set for the Concentration and Temperature levels. If the current level of either the Concentration or the Temperature rises above or below the set limits, the large numbers will change color as well as a bold outline around the card will appear color matched.
+A dashboard to display current Concentration and Temperature. Built to run on a 7 inch touchscreen with a resolution of 1280 x 720, it has numeric inputs for both upper and lower limits to set for the Concentration and Temperature levels. If the current level of either the Concentration or the Temperature rises above or below the set limits the background of the card will change color indicating a warning to catch th eye of engineers at a distance.
 
 The dashboard also contains a line chart for historical data that has been statically provided, marking each hour's Concentration and Temperature level readings. Either dataset can be toggled on or off with clicking it's labeled button.
 
@@ -33,20 +33,16 @@ to start the React server usually on port 3000
 
 ## Images
 
-</br>
-
 ### Everything is running smoothly, no warnings
 
 <img src="./public/images/dashboard.png" height="400px" width="auto">
 
-</br>
 </br>
 
 ### Warning, over limit
 
 <img src="./public/images/warning_high.png" height="400px" width="auto">
 
-</br>
 </br>
 
 ### Warning, under limit
